@@ -1,0 +1,109 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    color:hsl(24, 5%, 18%) ;
+    font-family: "Outfit", sans-serif;
+}
+
+
+body{
+    background-color: hsl(30, 54%, 90%);   
+}
+
+main{
+    max-width: 740px;
+    background-color:hsl(0, 0%, 100%); 
+    border-radius: 1rem;
+    margin-inline: auto;
+    padding: 3rem;
+    margin-block: 6rem;
+}
+img{
+    width: 100%;
+    border-radius: 1rem;
+}
+
+h1{
+    font-family: "Young Serif", serif;
+    font-size: 2.5rem;
+    margin-block: 1rem;
+}
+
+h2{
+    font-family: "Young Serif", serif;
+    color:hsl(14, 45%, 36%) ;
+}
+
+.preparation-time{
+    background-color: hsl(330, 100%, 98%);
+    padding: 2rem;
+}
+
+.preparation-time h2{
+    color: hsl(332, 51%, 32%) ;
+    font-size: 20px;
+    margin-top: 0;
+    font-family: inherit;
+}
+
+.preparation-time__list{
+    margin-bottom: 0;
+}
+
+.preparation-time__list li::marker{
+    color: hsl(332, 51%, 32%);
+}
+.preparation-time__list li:last-child{
+    margin-bottom: 0;
+}
+ul,ol{
+    padding-left: 24px;
+}
+
+ul{
+    list-style-type: square
+}
+
+ul li::marker{
+    font-size: 10px;
+}
+
+li::marker{
+    color: hsl(14, 45%, 36%) ;
+}
+
+ol li::marker{
+    font-weight: bold;
+}
+
+li{
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+
+table{
+    width: 100%;
+    border-spacing: 0;
+}
+
+td{
+    padding-left: 2rem;
+    padding-block: 1rem;
+    border-bottom:1px solid hsl(30, 18%, 87%);
+}
+
+td:nth-child(2n){
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+}
+
+tr:last-child td{
+    border-bottom: none;
+}
+
+hr{
+    border:0.5px solid hsl(30, 18%, 87%) ;
+    margin-block: 2rem;
+}
